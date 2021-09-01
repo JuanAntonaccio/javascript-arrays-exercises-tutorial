@@ -8,8 +8,8 @@ function deletePerson(personName)
 			peop.push(people[i]);
 		}
 	}
-	people=peop;
-	return people;
+	
+	return peop;
 }
 
 console.log(deletePerson('daniella'));
