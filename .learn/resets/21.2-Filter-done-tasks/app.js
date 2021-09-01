@@ -10,8 +10,3 @@ let tasks = [
 ];
 
 //your code here
-let resu = tasks.filter(function(dato){
-    return (dato.done);
-});
-
-console.log(resu);
