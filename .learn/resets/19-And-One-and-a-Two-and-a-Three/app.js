@@ -5,8 +5,5 @@ let contact = {
 }
 for(let key in contact){
     // Code goes here
-    let texto=key;
-    texto=texto+" : "+contact[key];
-    console.log(texto);
 }
 
