@@ -1,21 +1,21 @@
 
 // test Data
 function lyricsGenerator(vector){
-    let mcont=0;
-    let text="";
+    let mcont = 0;
+    let text = "";
     for(let i=0;i<vector.length;i++){
-       if (vector[i]==0){
-           text+="Boom ";
+       if (vector[i] == 0){
+           text += "Boom ";
        } else {
-           text+="Drop the base ";
+           text += "Drop the base ";
            mcont++;
            if (mcont==3){
-               mcont=0;
-               text+="!!!Break the base!!!";
+               mcont = 0;
+               text += "!!!Break the base!!! ";
            }
        }
     }
-    return text;
+    return text.trim();
 }
 console.log(lyricsGenerator([0,0,1,1,0,0,0]))
 console.log(lyricsGenerator([0,0,1,1,1,0,0,0]))
